@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Test v2</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Typing Test</h1>
+        <div id="test-paragraph-container">
+            <p id="testParagraph"></p>
+        </div>
+        <textarea id="userInput" placeholder="Start typing here..." autofocus disabled></textarea>
+
+        <div class="controls">
+            <button id="startButton">Start Test</button>
+            <button id="resetButton" disabled>Reset</button>
+        </div>
+
+        <div class="results-container">
+            <div class="result-item">
+                <span class="label">Time:</span> <span id="timer">0s</span>
+            </div>
+            <div class="result-item">
+                <span class="label">WPM:</span> <span id="wpm">0</span>
+            </div>
+            <div class="result-item">
+                <span class="label">Accuracy:</span> <span id="accuracy">0%</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script2.js"></script>
+</body>
+
+</html>
